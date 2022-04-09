@@ -11,7 +11,7 @@ body {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    padding-top: 1em;
+    padding-top: 3em;
 }
 
 @keyframes fadeInAnimation {
@@ -20,13 +20,13 @@ body {
     }
     100% {
         opacity: 1;
-     }
+    }
 }
 
-.header {
+header {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5em;  
-    background: url("assets/headerBg.jpg") no-repeat center center fixed;   
+    background: url("assets/headerBackground.jpg") no-repeat center center fixed;   
     background-size: 100% 100%;
     background-repeat: no-repeat;  
     height: 25vh;
@@ -66,11 +66,10 @@ body {
 
 .image-section > img {
     float: left;
-    width:  18rem;
+    width:  30rem;
     height: 15rem;
     object-fit: cover;
 }
-
 
 #user-details-form {
     margin:0 3em 3em 5em;
@@ -78,7 +77,7 @@ body {
     background-color: rgb(240, 237, 233);
 }
 
-input, select {
+input {
     width: 100%; 
     padding: 12px; 
     border: 1px solid #ccc; 
@@ -86,24 +85,41 @@ input, select {
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px;
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #0275d8;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-  }
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color:#5cb85c;
-  }
+}
 
-@media screen and (max-width: 750px){
-    .header {
+footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #cec8c8;
+    width: 100%;
+    position: absolute;
+}
+
+#footer-element {
+    margin: 0.5rem 20rem;
+    font-size: small;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    header {
         font-size: 1em;
         height: 20vh;
+        width: 100%;
+    }
+    #header-elements {
+        padding-top: 1em;
     }
     h1 {
         padding-top: 5vh;
@@ -112,9 +128,6 @@ input, select {
         flex-direction: column;
         margin: 1em;
         padding: 2em;
-    }
-    .header {
-        width: 100%;
     }
     .summary-section { 
         margin: 2vh 0;
@@ -125,5 +138,8 @@ input, select {
     }
     #user-details-form {
         padding: 2em 5%;
+    }
+    #footer-element {
+        margin: 0.5rem 5rem;
     }
 }
