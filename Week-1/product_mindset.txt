@@ -1,0 +1,40 @@
+Smart-O-Board: A smart, collaborative, virtual and real time whiteboard.
+Smarto’s Smart-O-Board is a virtual smart collaborative whiteboard to collaborate in real time and take online classes.
+
+Smarto releases its new and innovative product which helps schools or colleges to take online classes without any interruption. Smart-o-board is a smart whiteboard which recognises handwriting, shapes, numbers, etc and converts them into more appropriate or easy to understand characters. Using this smart board institutions can easily hold the classes using one application. Features like real time poll, raising hands for queries, chat section and sharing or restricting the edit access of the whiteboard with students makes it suitable for teaching.
+
+It's not easy to take online classes. You need a different application for chatting, calling or sharing the screen, a different rough workspace for collaborating with students and a different application for the polls. Managing and jumping through these different applications is a hectic task while you are teaching. Multitasking and multi-managing all these tabs will be a headache for a teacher which affects their teaching.
+
+Smart-o-board solves all the problems by integrating all the required features like voice/video calling, chatting, edit access of the board by the teacher, hosting a poll, keeping the tracks of attendees who attend the session, doubt section and web search in one application. Teachers don't have to worry about jumping and managing all the tabs. And also the lectures will start recording itself and will save the lectures on-demand on the cloud for further use and if it's not needed the teacher can delete the lecture.
+
+“We are excited how we can change the experience of online learning using our product” quoted by Ram Prasad, CTO of Smarto Software Solutions. “We are happy to see the innovative and creative product design by our employees will ease the load of the 500+ institutions and more than 5 lakhs students. We are keen to solve this problem for other institutions also and want to change the teaching and learning experience.” said by Vishnu Agrawal, CEO of Smarto Software Solutions. 
+
+“Smart-o-board helps our teachers to focus on the teaching rather than managing tabs of different applications. The features provided by this smart board are perfect for any teacher to take an online class.” said by the Principal of Vidyaniketan, Aurangabad.
+
+One can access the Smart-o-board using the web application on desktop or by downloading the app for Android or iOS from the respective stores. You need to login into the app using the creds provided to you by the institution.
+
+FAQs:
+
+1.  How can I access the smart-o-board?
+    You can easily find the smart-o-board on your LMS application and can access it through a web application using the same credentials provided by the institutions. One can also access it through mobile phones via app.
+
+2.  How will I fit all the content on the whiteboard?
+    There is no limit on the smart board. One can easily drag on the smart board and can do the things which he/she wants to do.
+
+3.  How can I capture a screenshot from the web page and paste it on the whiteboard?
+    You just need to select the screenshot icon from the tools section or you can tap 3 times to open the screenshot tool. Then you can select the area and click on the tick button to capture the screenshot and paste it on your board.
+
+4.  Can I have a format tool for formatting or to draw the things using different fonts, colors or styles on the board?
+    Yes, a format tool is integrated in this board where you can select the color and  font style. This board also provides the various pen types so that you can choose the pen depending on the scenario.
+
+5.  If I logout by mistake from the application, will my work be saved?
+    Yes, your work will be saved on our cloud storage. You don't have to save it manually. One can again login and start the session where it was interrupted.
+
+6.  How can I start the poll?
+    In the tools section you will find a poll option, by clicking on it you can write your question followed by options. Then the students will get a popup of the poll and only the teacher can see the results of the poll real time. Teacher can view the results on a bar graph or also the teacher can view which answer is given by whom by clicking on the options. 
+
+7.  How can I ask the question to the teacher during the session?
+    You can simply click on the raise hand button and then the teacher can unmute you to ask the question or another way is that you can ask the doubt in the doubt section. Teacher will get a notification with your name for asking a doubt.
+
+8.  Can I download the contents on the board?
+    Yes, you can download the board for making the notes, just by clicking on the download button one can download the board in the form of an image or one can also replicate the board in their own virtual space.
