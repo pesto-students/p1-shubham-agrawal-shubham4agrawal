@@ -7,10 +7,11 @@ body {
     background-color: whitesmoke;
 }
 
-.header > h3, h4{
+#header-elements {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    padding-top: 1em;
 }
 
 @keyframes fadeInAnimation {
@@ -70,6 +71,35 @@ body {
     object-fit: cover;
 }
 
+
+#user-details-form {
+    margin:0 3em 3em 5em;
+    padding: 2em 20%;
+    background-color: rgb(240, 237, 233);
+}
+
+input, select {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #0275d8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  input[type=submit]:hover {
+    background-color:#5cb85c;
+  }
+
 @media screen and (max-width: 750px){
     .header {
         font-size: 1em;
@@ -78,7 +108,7 @@ body {
     h1 {
         padding-top: 5vh;
     }
-    .article-section-1,.article-section-2,.article-section-3 {
+    .article-section-1,.article-section-2,.article-section-3, #user-details-form {
         flex-direction: column;
         margin: 1em;
         padding: 2em;
@@ -92,6 +122,8 @@ body {
     .image-section > img {
         width:  100%;
         height: 25%;
-
+    }
+    #user-details-form {
+        padding: 2em 5%;
     }
 }
