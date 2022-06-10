@@ -1,0 +1,19 @@
+var maxSubArray = function(nums) {
+    let maxSum = 0;
+    let upperBound = 0;
+    let lowerBound = 0;
+    for(let i = 0; i < (nums.length); i++) {
+		let currentSum = 0;
+        for(let j = i; j < (nums.length); j++) {
+            currentSum += nums[j];
+            if (currentSum > maxSum) {
+                maxSum = currentSum;
+                [upperBound, lowerBound] = [i, j];
+            }
+        }
+    }
+
+    return nums.slice(upperBound, lowerBound + 1);
+};
+
+console.log(maxSubArray([1,2,3,4,-10]));
