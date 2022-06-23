@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+.container {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    margin: 5% 20%;
+    background-color: #333333;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.todo--app {
+    width: 100%;
+    padding: 2% 10%;
+}
+
+
+.todo--form {
+    background-color: #444444;
+    padding: 5% 0%;
+}
+
+.todo--input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.todo--button-submit {
+    height: 35px;
+    width: 100px;
+    margin-left: 2%;
+    border-radius: 5px;
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.todo--item {
+    display: flex;
+    background-color: #444444;
+    padding: 2% 4%;
+    margin: 2% 0;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.todo--item {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.todo--text {
+    text-align: start;
+    padding-left: 2%;
+}
+
+.todo--button-remove {
+    border-color: red;
+    color: red;
+    height: 20px;
+    width: 20px;
+    margin-left: 75%;
+    border-radius: 5px;
+}
+
+.strike {
+    text-decoration: solid line-through;
+}
+
