@@ -1,0 +1,36 @@
+Request Lifecycle
+
+
+User enters the URL of the website which he/she wants to access. An URL is extracted by the browser in different parts. 
+Example : http://www.draw.io/draw?user_id=1
+http => protocol 
+www.draw.io => domain name
+draw => resource path
+user_id => query parameter
+
+Protocols are of two types:
+1.  http: protocol is used to transmit the data with server without any encoding
+2.  https: protocol is used to transmit the data with a server by encoding it. Using this protocol one can transmit data over the internet securely.
+
+Domain Name:
+Domain name is the human readable format through which a user can access the server. A server has its own unique IP address. A user can access the website by using domain name and IP address as well but IP address is not human readable form and cant be easily memorized because of which the domain name is mapped with the IP address of the server on the DNS Server.
+
+Once the browser extracts the domain name it needs to resolve IP which means it needs to get the IP address mapped with the domain name. 
+
+IP Resolve takes place stepwise. It will look into the cache and wherever it finds the mapped IP address it will proceed further. The caching steps include: 
+1.  Browser Cache : Browser stores the mapped IP address in its DNS cache.
+2.  OS Cache: When the mapping is unavailable in the browser cache it will make a system call where the DNS cache is stored by the OS.
+3.  Router Cache: When the mapping is unavailable in OS Cache, it will look into the router cache.
+4.  ISP Cache: In the last cache it will look into the Internet Service Provider’s Cache.
+
+If the required mapping of the IP address is unavailable then the request is forwarded to DNS Server where it will pass the IP Address of the requested domain.
+
+Now the browser (client machine) knows the IP address. Then the http request is sent to the mapped IP address server where a 3 way handshake will happen and the TCP connection is established between them to transmit the data. 
+
+The server will send the webpage data in the form of a source code in which html, css and javascript is written. Then the browser will render the source code which will display the webpage.
+
+Rendering on the browser also takes place in a number of steps which takes place by a software used by the browser known as Browser Engine. This software has all the logic to render the source code.
+
+
+
+

@@ -1,0 +1,46 @@
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.urlshortner--form {
+  margin-top: 3%;
+  background-color: #3f4249;
+  border-radius: 2%;
+  padding: 5% 15%;
+}
+
+.urlshortner--form > form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.urlshortner--form-input {
+  height: 30px;
+  width: 400px;
+  margin-right: 2px;
+}
+
+.urlshortner--button-submit {
+  color: #34D27C;
+  border: #34D27C 2px solid;
+  border-radius: 5px;
+}
+
+.urlshortner--output {
+  border: whitesmoke;
+}
+
+.urlshortner--output > input {
+  width: 98.5%;
+  border-radius: 2%;
+  height: 30px;
+  margin-top: 10%;
+}
