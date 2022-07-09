@@ -1,0 +1,12 @@
+1.  select * from ITEMS WHERE weight=(select min(weight) from ITEMS);
+
+2. select * from WAREHOUSES where city_name = 'pune';
+
+3. select ordered_items, CUSTOMERS.cust_name from ORDERS INNER JOIN CUSTOMERS ON ORDERS.cust_id = CUSTOMERS.cust_id where CUSTOMERS.cust_name = 'Ram';
+
+4. select wname from WAREHOUSES WHERE wid=(select wid  FROM STORES GROUP BY wid ORDER BY count(*) DESC LIMIT 1);
+
+5.  select o.item_name, sum(o.items_qty) sum_qty from ( SELECT ORDERED_QTY.* FROM ORDERS, JSON_TABLE(ordered_items, '$[*]' COLUMNS (item_name varchar(50) PATH '$.description', items_qty int PATH '$.qty' )) ORDERED_QTY) AS o GROUP BY item_name ORDER BY sum_qty LIMIT 1;
+
+6. select ordered_items from ORDERS;
+
